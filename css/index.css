@@ -1,0 +1,106 @@
+
+.container {
+  position: relative;
+  width: auto;
+  margin-top: 10px;
+  padding-right:0 !important;
+  overflow: hidden;
+}
+.ztree-container .ztree {
+  margin-top: 20px;
+  border-top: 1px solid #d1e1ee;
+  padding: 0;
+  overflow-y: scroll;
+}
+.none {
+  display: none !important;
+}
+.remodal-confirm2,.remodal-confirm3 {
+  font: inherit;
+  display: inline-block;
+  overflow: visible;
+  min-width: 110px;
+  margin: 10px 0 0 0;
+  padding: 10px 0;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.2s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  border: 0;
+  outline: 0;
+  color: #fff;
+  background: #4E4CAB;
+}
+.m-btn {
+  float: left;
+  margin-left: 40px;
+}
+
+.remodal-cancel {
+  margin-right: 22px;
+}
+
+.remodal-confirm {
+  margin-right: 10px;
+}
+
+.catalog-line {
+  position: absolute;
+  top: 0;
+  left: 220px;
+  height: 100%;
+  width: 1px;
+  overflow: hidden;
+  background: #d1e1ee;
+  cursor: w-resize;
+}
+
+.m-title {
+  text-align: left;
+  margin: -12px 0 0 -10px;
+  font-size: 18px;
+}
+.m-center-modal {
+  text-align: left;
+  margin-left: -10px;
+}
+.account-name,
+.directory,
+.account-attr,
+.m-btn {
+  margin-top: 20px;
+}
+.account-name input,
+.account-attr select {
+  width: 240px;
+  height: 36px;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background: none;
+}
+.account-name label,
+.directory label,
+.account-attr label {
+  color: #393857;
+  font-size: 12px;
+}
+.account-name input,
+.directory span,
+.account-attr select {
+  margin-left: 16px;
+  font-size: 14px;
+  color: #333;
+}
+.modal-tips {
+  font-size: 13px;
+  color: #f00;
+  padding: 10px 0 0 68px;
+}
+.ztree-content {
+  margin-left: 220px;
+  height: 100%;
+}
