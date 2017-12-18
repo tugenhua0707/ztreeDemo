@@ -171,6 +171,9 @@ body,
   height: 100%;
   overflow: hidden;
 }
+.container {
+  position: relative;
+}
 .ztree li a.curSelectedNode {
   background: none !important;
   color: #333 !important;

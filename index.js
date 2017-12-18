@@ -1105,7 +1105,7 @@ $(function(){
         foldWidth < 220 && (foldWidth = 220);
         foldWidth > maxT && (foldWidth = maxT);
         oLine.style.left = leftWrap.style.width = foldWidth + 'px';
-        rightWrap.style.width = containerWrap.clientWidth - foldWidth + 'px';
+        // rightWrap.style.width = containerWrap.clientWidth - foldWidth + 'px';
         $(rightWrap).css({'margin-left': foldWidth});
         return false;
       };
